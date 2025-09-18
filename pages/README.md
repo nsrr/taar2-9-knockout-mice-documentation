@@ -20,7 +20,7 @@ Cohorts:
 - Batch 1: 8 KO mice (mouse 3–6, 8–12) and 3 WT mice (mouse 1, 2, 7).
 - Batch 2: 9 WT mice (mouse 1–9).
 
-### 1. Animals
+**1. Animals**
 
 TAAR2-9 Knockout (KO) Mice:
 
@@ -41,14 +41,14 @@ Housing Conditions:
 
 - Group-housed under a 12h:12h light-dark cycle.
 
-### 2. Surgical Procedures
+**2. Surgical Procedures**
 
 - Mice were implanted with wireless EEG/EMG transmitters.
 - EEG leads targeted the hippocampus and cerebellum; EMG leads were sutured to the neck
 muscle.
 - Postoperative analgesia was administered for 2–3 days.
 
-### 3. Experimental Design
+**3. Experimental Design**
 
 Recordings were structured into three main protocols:
 
@@ -65,13 +65,13 @@ Recordings were structured into three main protocols:
 	- At least 72 h washout between sessions.
 - 6h SD: <12h continuous EEG/EMG recording starting at ZT23
 
-### 4. Data Analysis
+**4. Data Analysis**
 
 - Sleep/wake states were manually scored and verified using Neuroscore and Somnivore.
 - EEG power was computed across standard bands (delta, theta, alpha, beta, low/high gamma).
 - Statistics were performed using MATLAB and GraphPad Prism.
 
-### Summary of Findings
+**Summary of Findings**
 
 TAAR2-9 KO mice showed:
 
@@ -103,7 +103,7 @@ For dosing data, files are named as DosingX_mouseY, where X = dosing number and 
 
 **Folder Structure**
 
-/edf: Exported EDF files from Ponemah/Neuroscore™ systems containing raw signals:
+[/edf](:files_path:/EDF files): Exported EDF files from Ponemah/Neuroscore™ systems containing raw signals:
 
 - EEG, EMG, temperature (Tsc), signal strength, and locomotor activity (LMA).
 - Sampling rates:
@@ -112,7 +112,7 @@ For dosing data, files are named as DosingX_mouseY, where X = dosing number and 
 	- Activity: 1 Hz
 - Transmitters: DSI HD-X02 wireless telemetry.
 
-/fft: CSV files containing:
+[/fft](:files_path:/FFT files): CSV files containing:
 
 - Power spectral density (PSD) values
 - Sleep state scoring across 10-second epochs
