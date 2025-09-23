@@ -132,7 +132,7 @@ Users must include the following text in any Acknowledgements:
 
 ## References
 
-- TAAR2-9 knockout (KO) mice GitHub Documentation: https://github.com/nsrr/park-2024-documentation
+- TAAR2-9 knockout (KO) mice GitHub Documentation: https://github.com/nsrr/taar2-9-knockout-mice-documentation
 
 ## Questions?
 
