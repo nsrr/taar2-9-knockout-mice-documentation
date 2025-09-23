@@ -1,14 +1,12 @@
-**Note: These data are not yet available for general data requests.**
-
 ## About
 
-To support research on Trace Amine-Associated Receptors (TAARs) and their role in sleep-wake regulation, the Sleep Neurobiology Laboratory at SRI International provides this dataset (Park 2024) on TAAR2-9knockout (KO) mice. The data aim to facilitate investigation into the physiological and neurobiological impacts of TAAR family members on sleep structure, EEG spectral power, and dopaminergic signaling.
+To support research on Trace Amine-Associated Receptors (TAARs) and their role in sleep-wake regulation, the Sleep Neurobiology Laboratory at SRI International provides this dataset on TAAR2-9 knockout (KO) mice. The data are intended to facilitate investigation into the physiological and neurobiological impacts of TAAR family members on sleep structure, EEG spectral power, and dopaminergic signaling.
 
 ## Methods
 
 This dataset comprises physiological recordings from male TAAR2-9 KO and wild-type (WT) C57BL/6J mice. Recordings were collected under baseline, sleep deprivation, and pharmacological conditions.
 
-Measured signals include:
+Signals measured include:
 
 - EEG (electroencephalogram)
 - EMG (electromyogram)
@@ -65,25 +63,18 @@ Recordings were structured into three main protocols:
 	- At least 72 h washout between sessions.
 - 6h SD: <12h continuous EEG/EMG recording starting at ZT23
 
-**4. Data Analysis**
-
-- Sleep/wake states were manually scored and verified using Neuroscore and Somnivore.
-- EEG power was computed across standard bands (delta, theta, alpha, beta, low/high gamma).
-- Statistics were performed using MATLAB and GraphPad Prism.
-
 **Summary of Findings**
 
 TAAR2-9 KO mice showed:
 
 - Decreased wakefulness and increased REM and NREM sleep.
-- Sleep fragmentation: more REM bouts, shorter wake and REM durations.
-- Elevated dopaminergic activity (increased TH+ cells in VTA).
-
-TAAR1 agonists reduced REM sleep; caffeine promoted wakefulness as expected.
+	- Sleep fragmentation: more REM bouts, shorter wake and REM durations.
+	- Elevated dopaminergic activity (increased TH+ cells in VTA).
+- TAAR1 agonists reduced REM sleep; caffeine promoted wakefulness as expected.
 
 ## Data overview
 
-**Approved users can browse and [download the Park 2024 data here](:files_path:).**
+**Approved users can browse and [download the TAAR2-9 knockout (KO) mice data here](:files_path:).**
 
 The repository contains both EDF (raw signals) and FFT (spectral analysis) files, organized under the following experimental conditions:
 
@@ -97,9 +88,8 @@ For Dosing experiments, only KO mice (mouse 3–6, 8–11) were analyzed in the 
 
 **Mouse Identification**
 
-Each file name includes the mouse identifier (e.g., mouse01 or mouse1).
-
-For dosing data, files are named as DosingX_mouseY, where X = dosing number and Y = mouse number.
+- Each file name includes the mouse identifier (e.g., mouse01 or mouse1).
+- For dosing data, files are named as DosingX_mouseY, where X = dosing number and Y = mouse number.
 
 **Folder Structure**
 
@@ -120,7 +110,7 @@ For dosing data, files are named as DosingX_mouseY, where X = dosing number and 
 
 ## Access and usage restrictions
 
-The Park 2024 dataset is only available for non-commercial use.
+The TAAR2-9 knockout (KO) mice dataset is only available for non-commercial use.
 
 ## Citation and acknowledgement
 
@@ -132,17 +122,17 @@ When using this dataset, users must cite the following:
 
 Users must include the following text in any Acknowledgements:
 
-> Data collection for the Park 2024 study was supported by the U.S. National Institutes of Health (R01NS103529, R01NS136808). The National Sleep Research Resource was supported by the U.S. National Institutes of Health, National Heart Lung and Blood Institute (R24 HL114473, 75N92019R002).
+> The recordings deposited here were supported by NIH R01NS103529 and R01NS136808 to Thomas S. Kilduff. The National Sleep Research Resource was supported by the U.S. National Institutes of Health, National Heart Lung and Blood Institute (R24 HL114473, 75N92019R002).
 
 ## Changelog
 
 *September 2025*
 
-- Make Park 2024 dataset available for data requests
+- Make TAAR2-9 knockout (KO) mice dataset available for data requests
 
 ## References
 
-- Park 2024 GitHub Documentation: https://github.com/nsrr/park-2024-documentation
+- TAAR2-9 knockout (KO) mice GitHub Documentation: https://github.com/nsrr/park-2024-documentation
 
 ## Questions?
 
