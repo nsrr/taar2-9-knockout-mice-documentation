@@ -37,23 +37,23 @@ TAAR2-9 Knockout (KO) Mice:
 
 Housing Conditions:
 
-- Group-housed under a 12h:12h light-dark cycle.
+- Group-housed under a 12h:12h light-dark cycle before surgery and singly-housed after transmitter implantation.
 
 **2. Surgical Procedures**
 
-- Mice were implanted with wireless EEG/EMG transmitters.
+- Mice were implanted with wireless HD-X02 transmitters (DSI, Inc., St. Paul, MN) to record EEG/EMG
+- Transmitters were placed in a subcutaneous pocket created in right dorsal flank.
 - EEG leads targeted the hippocampus and cerebellum; EMG leads were sutured to the neck
 muscle.
 - Postoperative analgesia was administered for 2–3 days.
 
 **3. Experimental Design**
 
-Recordings were structured into three main protocols:
+Recordings were structured into four main protocols:
 
 - Baseline Sleep/Wake Recording: 25-h continuous EEG/EMG recording starting at ZT23.
-- Multiple Sleep Latency Test (mMSLT) and Sleep Deprivation:
-	- 5 trials of 20 min SD followed by 20 min undisturbed sleep at ZT3.
-	- Additional 1-, 3-, and 6-hour SD studies, with 18 h recovery recordings.
+- Multiple Sleep Latency Test (mMSLT):
+	- Beginning at ZT3, 5 trials of 20 min SD interspersed with 20 min recovery periods
 - Pharmacology:
 	- Oral administration at ZT6 of:
 		- Vehicle (10% DMSO),
@@ -61,16 +61,16 @@ Recordings were structured into three main protocols:
 		- TAAR1 full agonist RO5256390 (3 or 10 mg/kg),
 		- Caffeine (10 mg/kg, positive control).
 	- At least 72 h washout between sessions.
-- 6h SD: <12h continuous EEG/EMG recording starting at ZT23
+- Sleep Deprivation:
+	- 6h SD: ~12h continuous EEG/EMG recording starting at ZT23
 
 **Summary of Findings**
 
-TAAR2-9 KO mice showed:
-
-- Decreased wakefulness and increased REM and NREM sleep.
+- TAAR2-9 KO mice showed:
+	- Decreased wakefulness and increased REM and NREM sleep.
 	- Sleep fragmentation: more REM bouts, shorter wake and REM durations.
 	- Elevated dopaminergic activity (increased TH+ cells in VTA).
-- TAAR1 agonists reduced REM sleep; caffeine promoted wakefulness as expected.
+	- TAAR1 agonists reduced REM sleep; caffeine promoted wakefulness as expected.
 
 ## Data overview
 
@@ -100,7 +100,7 @@ For Dosing experiments, only KO mice (mouse 3–6, 8–11) were analyzed in the 
 	- EEG/EMG: 500 Hz
 	- Tsc and signal strength: 10 Hz
 	- Activity: 1 Hz
-- Transmitters: DSI HD-X02 wireless telemetry.
+- Transmitters: DSI HD-X02 wireless telemeters
 
 [/fft](:files_path:/FFT files): CSV files containing:
 
