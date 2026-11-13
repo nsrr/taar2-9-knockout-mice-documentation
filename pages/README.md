@@ -122,7 +122,7 @@ When using this dataset, users must cite the following:
 
 Users must include the following text in any Acknowledgements:
 
-> The recordings deposited here were supported by NIH R01NS103529 and R01NS136808 to Thomas S. Kilduff. The National Sleep Research Resource was supported by the U.S. National Institutes of Health, National Heart Lung and Blood Institute (R24 HL114473, 75N92019R002).
+> The recordings deposited here were supported by NIH R01NS103529 and R01NS136808 to Thomas S. Kilduff. The National Sleep Research Resource was supported by the U.S. National Institutes of Health, National Heart Lung and Blood Institute (R24 HL114473, 75N92019R002, 75N92025R00007).
 
 ## Changelog
 
